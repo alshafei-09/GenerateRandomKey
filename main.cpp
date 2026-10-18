@@ -72,7 +72,7 @@ char cGetRandomChar(enCharType CharType)
         return char(iGetRandNum(33, 47));
     else if (CharType == enCharType::Digit)
         return char(iGetRandNum(48, 57));
-    else if (CharType == enCharType::Mixed)
+    else
         return cGetRandomChar((enCharType)iGetRandNum(1, 4));
 }
 
