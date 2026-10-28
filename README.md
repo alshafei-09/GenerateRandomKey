@@ -8,7 +8,7 @@ Generate random keys with any type of characters
 - Display the result
   
 ## Language 
-- C++
+- C++ (GCC compiler)
   
 ### Author 
 Ahmed
